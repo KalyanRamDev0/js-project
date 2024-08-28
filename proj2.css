@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+}
+.heading{
+    text-align: center;
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.list-container {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.countdown {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+#submitBtn2{
+    position: absolute;
+    right: 380px;
+}
+
+.btnsub{
+    width: 100%;
+    text-align: center;
+}

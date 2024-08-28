@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Reminder App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="proj2.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="heading">Birthday Reminder App</h1>
+        
+        <!-- Adding/Editing Birthday Form -->
+        <div class="form-container mb-4">
+            <h2 id="formTitle">Add a Birthday</h2>
+            <form id="birthdayForm">
+                <input type="hidden" id="editIndex">
+                <div class="bname">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" class="form-control" required>
+                </div>
+                <button type="submit" id="submitBtn" class="btn btn-primary">Add Birthday</button>
+            </form>
+        </div>
+        
+        <!-- Upcoming Birthdays -->
+        <div class="list-container">
+            <h2>Upcoming Birthdays</h2>
+            <ul id="birthdayList" class="list-group">
+                <!--  to add List items will be dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="proj2.js"></script>
+</body>
+</html>
+
